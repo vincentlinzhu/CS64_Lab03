@@ -23,6 +23,7 @@ main:
 	and $t2, $t0, $t1
 	beq $t2, $zero, even
 	bne $t2, $zero, odd
+	j exit
 
 # If even
 even:
