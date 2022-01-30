@@ -4,7 +4,7 @@
 # Data Area - allocate and initialize variables
 .data
 	# TODO: Write your string definitions here
-	prompt: .asciiz "Enter a integer: "
+	prompt: .asciiz "Enter an integer: "
 
 # Text Area (i.e. instructions)
 .text
