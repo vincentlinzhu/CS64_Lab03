@@ -8,18 +8,11 @@
 .text
 main:
 	# TODO: Write your code here
-	# Get user input 1 (integer)
-	li $v0, 4
-	la $a0, prompt
-	syscall
+	# Get user input (integer)
 	li $v0, 5
 	syscall
 	move $t0, $v0
 
-	# Get user input 2 (integer)
-	li $v0, 4
-	la $a0, prompt
-	syscall
 	li $v0, 5
 	syscall
 	move $t1, $v0
